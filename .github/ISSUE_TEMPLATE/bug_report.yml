@@ -1,0 +1,25 @@
+name: 패치 문제 신고
+description: 적용 오류 또는 게임 내 표시 문제
+title: "[문제] "
+body:
+  - type: markdown
+    attributes:
+      value: "ROM·BIOS·키·세이브·개인 정보는 첨부하지 마세요."
+  - type: textarea
+    id: versions
+    attributes:
+      label: 패치 버전과 원본·패치·출력 SHA-256
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: OS, xdelta 버전, 에뮬레이터 버전·설정
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 절차, 기대 결과, 실제 결과, 개인 정보를 가린 화면 캡처
+    validations:
+      required: true

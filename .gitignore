@@ -1,0 +1,10 @@
+*.nds
+*.gba
+*.sav
+*.dsv
+*.srm
+*.state
+*.bin
+*.key
+.env*
+__pycache__/

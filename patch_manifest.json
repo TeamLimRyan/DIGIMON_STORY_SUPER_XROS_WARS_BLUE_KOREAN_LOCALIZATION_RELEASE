@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "game": "디지몬 스토리 초 크로스워즈 블루",
+  "edition": "blue",
+  "version": "v1.0.0",
+  "platform": "Nintendo DS",
+  "region": "Japan",
+  "source": {
+    "sha256": "dc9dd0cf0e13b2e017ee5606343fb9198bbb5a95c2c926896a4bcaf4060f929a",
+    "size": 67108864
+  },
+  "target": {
+    "sha256": "01d65a63dc68605bbd3d41173b04d83789682fd1c58ac2cf57f6968b58b5d5a7",
+    "size": 67108864
+  },
+  "patch": {
+    "file": "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta",
+    "sha256": "002d6b15def97c4f156c556e4960999888cf9c4348de09b6c0b016b419c6b075",
+    "size": 7565783,
+    "format": "VCDIFF/xdelta3",
+    "application_header": false
+  },
+  "roundtrip": {
+    "sha256": "01d65a63dc68605bbd3d41173b04d83789682fd1c58ac2cf57f6968b58b5d5a7",
+    "size": 67108864
+  },
+  "tool": {
+    "name": "xdelta3",
+    "version": "3.2.2",
+    "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+  },
+  "validation": {
+    "platform": "Windows x64",
+    "roundtrip": "PASS",
+    "owner_review": "ACCEPTED",
+    "runtime": "libretro DeSmuME; sampled scenarios; see COMPATIBILITY.md"
+  }
+}
