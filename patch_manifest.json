@@ -2,7 +2,7 @@
   "schema_version": 1,
   "game": "디지몬 스토리 초 크로스워즈 블루",
   "edition": "blue",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "platform": "Nintendo DS",
   "region": "Japan",
   "source": {
@@ -14,7 +14,7 @@
     "size": 67108864
   },
   "patch": {
-    "file": "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta",
+    "file": "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.1.xdelta",
     "sha256": "002d6b15def97c4f156c556e4960999888cf9c4348de09b6c0b016b419c6b075",
     "size": 7565783,
     "format": "VCDIFF/xdelta3",

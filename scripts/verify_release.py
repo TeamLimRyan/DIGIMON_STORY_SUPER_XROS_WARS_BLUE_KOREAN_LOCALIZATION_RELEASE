@@ -15,3 +15,9 @@ assert m['roundtrip']['sha256']==m['target']['sha256'] and m['roundtrip']['size'
 for part in ('source','target','patch','roundtrip'):
     assert len(m[part]['sha256'])==64 and m[part]['size']>0
 print('PASS: exact public file allowlist, checksums, headerless VCDIFF, source/target metadata')
+
+for line in (r/'SHA256SUMS.txt').read_text().splitlines():
+    h, name = line.split('  ',1)
+    staged = subprocess.check_output(['git','show',':'+name],cwd=r)
+    assert hashlib.sha256(staged).hexdigest()==h, 'Git index checksum: '+name
+print('PASS: staged Git bytes match downloadable checksums')

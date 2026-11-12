@@ -7,7 +7,7 @@
 3. 빈 작업 폴더에서 아래 명령을 실행합니다. 기존 출력이 있으면 이름을 변경하세요.
 
 ```text
-xdelta3 -d -s "original.nds" "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta" "korean.nds"
+xdelta3 -d -s "original.nds" "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.1.xdelta" "korean.nds"
 ```
 
 4. 결과 크기와 SHA-256을 README 또는 `patch_manifest.json`과 비교합니다.

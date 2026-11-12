@@ -1,8 +1,8 @@
-# 디지몬 스토리 초 크로스워즈 블루 한글 패치 v1.0.0
+# 디지몬 스토리 초 크로스워즈 블루 한글 패치 v1.0.1
 
-일본판 Nintendo DS용 한글 패치입니다. **[릴리스에서 xdelta 다운로드](https://github.com/TeamLimRyan/DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0)**
+일본판 Nintendo DS용 한글 패치입니다. **[릴리스에서 xdelta 다운로드](https://github.com/TeamLimRyan/DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.1)**
 
-패치 파일: [`DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta`](DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta)
+패치 파일: [`DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.1.xdelta`](DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.1.xdelta)
 
 ## 원본·적용 후·패치 해시
 
@@ -20,7 +20,7 @@
 2. xdelta3로 아래 명령을 실행합니다. 원본과 출력은 서로 다른 파일이어야 합니다.
 
 ```text
-xdelta3 -d -s "original.nds" "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.0.xdelta" "korean.nds"
+xdelta3 -d -s "original.nds" "DIGIMON_STORY_SUPER_XROS_WARS_BLUE_KO_v1.0.1.xdelta" "korean.nds"
 ```
 
 3. `korean.nds`의 SHA-256을 적용 후 해시와 비교합니다.
